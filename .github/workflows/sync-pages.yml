@@ -44,6 +44,9 @@ jobs:
             --exclude 'target-repo' \
             --exclude 'CNAME' \
             --exclude 'policies' \
+            --exclude 'favicon.ico' \
+            --exclude 'logo.png' \
+            --exclude 'api.json' \
             ./ target-repo/
 
       - name: Commit & push changes
